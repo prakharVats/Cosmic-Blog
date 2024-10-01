@@ -14,7 +14,8 @@ function SlowComponent() {
   );
 }
 
-export default function Test() {
+export default function Test() 
+{
   const [count, setCount] = useState(0);
   return (
     <div>

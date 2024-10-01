@@ -57,7 +57,6 @@ function App() {
       <button onClick={() => setIsFakeDark((isFakeDark) => !isFakeDark)} className="btn-fake-dark-mode">
         {isFakeDark ? "☀️" : "🌙"}
       </button>
-
       <Header/>
       <Main />
       <Archive/>
